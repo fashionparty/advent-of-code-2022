@@ -1,5 +1,7 @@
 package main
 
+import "advent-of-code-2022/day_1"
+
 func main() {
-	println("Hello Advent of Code")
+	day_1.Run()
 }
