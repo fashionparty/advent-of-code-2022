@@ -35,7 +35,7 @@ func Run() {
 	}
 	sort.Ints(sums)
 	answer1 := sums[len(sums)-1]
-	fmt.Println("Day 1")
+	fmt.Println("\nDay 1")
 	fmt.Println("Answer 1:", answer1)
 	answer2 := sums[len(sums)-1] + sums[len(sums)-2] + sums[len(sums)-3]
 	fmt.Println("Answer 2:", answer2)
